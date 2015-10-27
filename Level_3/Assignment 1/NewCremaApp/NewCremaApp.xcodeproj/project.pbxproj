@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AD8E5751BB52A5700BB404F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD8E5741BB52A5700BB404F /* main.m */; };
+		4AD8E5781BB52A5700BB404F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD8E5771BB52A5700BB404F /* AppDelegate.m */; };
+		4AD8E57B1BB52A5700BB404F /* NewCremaApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4AD8E5791BB52A5700BB404F /* NewCremaApp.xcdatamodeld */; };
+		4AD8E5811BB52A5700BB404F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AD8E57F1BB52A5700BB404F /* Main.storyboard */; };
+		4AD8E5831BB52A5700BB404F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AD8E5821BB52A5700BB404F /* Images.xcassets */; };
+		4AD8E5861BB52A5700BB404F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AD8E5841BB52A5700BB404F /* LaunchScreen.xib */; };
+		4AD8E5921BB52A5700BB404F /* NewCremaAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD8E5911BB52A5700BB404F /* NewCremaAppTests.m */; };
+		4AD8E59D1BB52B2200BB404F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD8E59C1BB52B2200BB404F /* FirstViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AD8E58C1BB52A5700BB404F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AD8E5671BB52A5700BB404F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AD8E56E1BB52A5700BB404F;
+			remoteInfo = NewCremaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AD8E56F1BB52A5700BB404F /* NewCremaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewCremaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD8E5731BB52A5700BB404F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AD8E5741BB52A5700BB404F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AD8E5761BB52A5700BB404F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4AD8E5771BB52A5700BB404F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AD8E57A1BB52A5700BB404F /* NewCremaApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NewCremaApp.xcdatamodel; sourceTree = "<group>"; };
+		4AD8E5801BB52A5700BB404F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AD8E5821BB52A5700BB404F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4AD8E5851BB52A5700BB404F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4AD8E58B1BB52A5700BB404F /* NewCremaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewCremaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD8E5901BB52A5700BB404F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AD8E5911BB52A5700BB404F /* NewCremaAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewCremaAppTests.m; sourceTree = "<group>"; };
+		4AD8E59B1BB52B2200BB404F /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		4AD8E59C1BB52B2200BB404F /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AD8E56C1BB52A5700BB404F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AD8E5881BB52A5700BB404F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AD8E5661BB52A5700BB404F = {
+			isa = PBXGroup;
+			children = (
+				4AD8E5711BB52A5700BB404F /* NewCremaApp */,
+				4AD8E58E1BB52A5700BB404F /* NewCremaAppTests */,
+				4AD8E5701BB52A5700BB404F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AD8E5701BB52A5700BB404F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AD8E56F1BB52A5700BB404F /* NewCremaApp.app */,
+				4AD8E58B1BB52A5700BB404F /* NewCremaAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AD8E5711BB52A5700BB404F /* NewCremaApp */ = {
+			isa = PBXGroup;
+			children = (
+				4AD8E5761BB52A5700BB404F /* AppDelegate.h */,
+				4AD8E5771BB52A5700BB404F /* AppDelegate.m */,
+				4AD8E57F1BB52A5700BB404F /* Main.storyboard */,
+				4AD8E59B1BB52B2200BB404F /* FirstViewController.h */,
+				4AD8E59C1BB52B2200BB404F /* FirstViewController.m */,
+				4AD8E5821BB52A5700BB404F /* Images.xcassets */,
+				4AD8E5841BB52A5700BB404F /* LaunchScreen.xib */,
+				4AD8E5791BB52A5700BB404F /* NewCremaApp.xcdatamodeld */,
+				4AD8E5721BB52A5700BB404F /* Supporting Files */,
+			);
+			path = NewCremaApp;
+			sourceTree = "<group>";
+		};
+		4AD8E5721BB52A5700BB404F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AD8E5731BB52A5700BB404F /* Info.plist */,
+				4AD8E5741BB52A5700BB404F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AD8E58E1BB52A5700BB404F /* NewCremaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AD8E5911BB52A5700BB404F /* NewCremaAppTests.m */,
+				4AD8E58F1BB52A5700BB404F /* Supporting Files */,
+			);
+			path = NewCremaAppTests;
+			sourceTree = "<group>";
+		};
+		4AD8E58F1BB52A5700BB404F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AD8E5901BB52A5700BB404F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AD8E56E1BB52A5700BB404F /* NewCremaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AD8E5951BB52A5700BB404F /* Build configuration list for PBXNativeTarget "NewCremaApp" */;
+			buildPhases = (
+				4AD8E56B1BB52A5700BB404F /* Sources */,
+				4AD8E56C1BB52A5700BB404F /* Frameworks */,
+				4AD8E56D1BB52A5700BB404F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewCremaApp;
+			productName = NewCremaApp;
+			productReference = 4AD8E56F1BB52A5700BB404F /* NewCremaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AD8E58A1BB52A5700BB404F /* NewCremaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AD8E5981BB52A5700BB404F /* Build configuration list for PBXNativeTarget "NewCremaAppTests" */;
+			buildPhases = (
+				4AD8E5871BB52A5700BB404F /* Sources */,
+				4AD8E5881BB52A5700BB404F /* Frameworks */,
+				4AD8E5891BB52A5700BB404F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AD8E58D1BB52A5700BB404F /* PBXTargetDependency */,
+			);
+			name = NewCremaAppTests;
+			productName = NewCremaAppTests;
+			productReference = 4AD8E58B1BB52A5700BB404F /* NewCremaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AD8E5671BB52A5700BB404F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Mindstix Software";
+				TargetAttributes = {
+					4AD8E56E1BB52A5700BB404F = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					4AD8E58A1BB52A5700BB404F = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 4AD8E56E1BB52A5700BB404F;
+					};
+				};
+			};
+			buildConfigurationList = 4AD8E56A1BB52A5700BB404F /* Build configuration list for PBXProject "NewCremaApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AD8E5661BB52A5700BB404F;
+			productRefGroup = 4AD8E5701BB52A5700BB404F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AD8E56E1BB52A5700BB404F /* NewCremaApp */,
+				4AD8E58A1BB52A5700BB404F /* NewCremaAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AD8E56D1BB52A5700BB404F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AD8E5811BB52A5700BB404F /* Main.storyboard in Resources */,
+				4AD8E5861BB52A5700BB404F /* LaunchScreen.xib in Resources */,
+				4AD8E5831BB52A5700BB404F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AD8E5891BB52A5700BB404F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AD8E56B1BB52A5700BB404F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AD8E5781BB52A5700BB404F /* AppDelegate.m in Sources */,
+				4AD8E57B1BB52A5700BB404F /* NewCremaApp.xcdatamodeld in Sources */,
+				4AD8E5751BB52A5700BB404F /* main.m in Sources */,
+				4AD8E59D1BB52B2200BB404F /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AD8E5871BB52A5700BB404F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AD8E5921BB52A5700BB404F /* NewCremaAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AD8E58D1BB52A5700BB404F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AD8E56E1BB52A5700BB404F /* NewCremaApp */;
+			targetProxy = 4AD8E58C1BB52A5700BB404F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AD8E57F1BB52A5700BB404F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AD8E5801BB52A5700BB404F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AD8E5841BB52A5700BB404F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AD8E5851BB52A5700BB404F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AD8E5931BB52A5700BB404F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AD8E5941BB52A5700BB404F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AD8E5961BB52A5700BB404F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NewCremaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4AD8E5971BB52A5700BB404F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NewCremaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4AD8E5991BB52A5700BB404F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NewCremaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewCremaApp.app/NewCremaApp";
+			};
+			name = Debug;
+		};
+		4AD8E59A1BB52A5700BB404F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NewCremaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewCremaApp.app/NewCremaApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AD8E56A1BB52A5700BB404F /* Build configuration list for PBXProject "NewCremaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AD8E5931BB52A5700BB404F /* Debug */,
+				4AD8E5941BB52A5700BB404F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AD8E5951BB52A5700BB404F /* Build configuration list for PBXNativeTarget "NewCremaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AD8E5961BB52A5700BB404F /* Debug */,
+				4AD8E5971BB52A5700BB404F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4AD8E5981BB52A5700BB404F /* Build configuration list for PBXNativeTarget "NewCremaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AD8E5991BB52A5700BB404F /* Debug */,
+				4AD8E59A1BB52A5700BB404F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4AD8E5791BB52A5700BB404F /* NewCremaApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4AD8E57A1BB52A5700BB404F /* NewCremaApp.xcdatamodel */,
+			);
+			currentVersion = 4AD8E57A1BB52A5700BB404F /* NewCremaApp.xcdatamodel */;
+			path = NewCremaApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4AD8E5671BB52A5700BB404F /* Project object */;
+}
